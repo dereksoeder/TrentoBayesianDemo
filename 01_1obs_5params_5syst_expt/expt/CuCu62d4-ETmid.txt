@@ -1,0 +1,12 @@
+#: table_doi: 10.17182/hepdata.96601.v1/t19
+#: name: Table 25
+#: description: Transverse energy in Cu+Cu collisions at $\sqrt{s_{NN}}$ = 62.4 GeV
+# centrality	centrality LOW	centrality HIGH	$dE_{T}/d\eta$	sys +	sys -
+2.5	0	5	107.6	6.5	-6.5
+7.5	5	10	93.6	5.6	-5.6
+12.5	10	15	79.3	4.8	-4.8
+17.5	15	20	66.5	4	-4
+22.5	20	25	55.6	3.3	-3.3
+27.5	25	30	46.4	2.8	-2.8
+32.5	30	35	38.6	2.3	-2.3
+37.5	35	40	32	1.9	-1.9

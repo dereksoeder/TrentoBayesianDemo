@@ -1,0 +1,3 @@
+[submodule "trento"]
+	path = trento
+	url = https://github.com/Duke-QCD/trento

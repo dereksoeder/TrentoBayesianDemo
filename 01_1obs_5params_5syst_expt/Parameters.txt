@@ -1,0 +1,6 @@
+# name  caption  minimum  maximum
+norm_62d4        "N_{62.4}"      1.    12.
+norm_200         "N_{200}"       2.    15.
+norm_2760        "N_{2760}"      8.    20.
+nucleon_width    "w [{fm}]"      0.35   1.40
+fluctuation      "k"             0.1    5.0
