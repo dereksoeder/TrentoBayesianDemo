@@ -101,7 +101,7 @@ do
 
     echo "Generating '$eventsfile'..." 1>&2
 
-    trento/build/src/trento \
+    "$trentopath" \
         "$projectile" "$target" "$nevents" \
         -x "${cross_section}" \
         -n "$norm" \
@@ -145,7 +145,7 @@ echo 'Processing data...' 1>&2
 
 python3 Process.py
 
-if [ "$?" -ne 0 ] || [ "$(readlink -e processed/Data-*.dat) | wc -l" -eq 0 ] || [ "$(readlink -e processed/Prediction-main-*.dat) | wc -l" -eq 0 ]
+if [ "$?" -ne 0 ] || [ "$(readlink -e processed/Data-*.dat | wc -l)" -eq 0 ] || [ "$(readlink -e processed/Prediction-main-*.dat | wc -l)" -eq 0 ]
 then
   echo "Process.py failed; analysis cannot continue.  Check that '$designfile' and 'badpoints.txt' are consistent and '$exptpath/*.dat' files are valid." 1>&2
   exit 1

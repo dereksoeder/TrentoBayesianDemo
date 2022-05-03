@@ -15,8 +15,8 @@ Note that a Linux environment is assumed.
   - T<sub>R</sub>ENTo requires the [Boost](https://www.boost.org/) C++ libraries.  If CMake isn't able to find the libraries automatically, you might need to:
     - Load a Boost [environment module](https://en.wikipedia.org/wiki/Environment_Modules_%28software%29) that already exists on the system: `module load boost`  (You might need to specify a version; e.g.: `module load boost/1.76.0`)
     - Tell CMake the path to Boost; e.g.: `cmake .. -DBOOST_ROOT=XXX/boost_1_76_0 -DBoost_INCLUDE_DIR=XXX/boost_1_76_0` (where `XXX` is something you'll need to fill in)
-    - [Build](https://www.boost.org/more/getting_started/index.html) your own copy of Boost
-- From one of the test directories, run `RunMe.sh`
+    - Or [build](https://www.boost.org/more/getting_started/index.html) your own copy of Boost
+- From one of the demonstration directories, run `RunMe.sh`
 
 ## Demonstrations
 
